@@ -21,9 +21,9 @@ $config->load('./ContactForm/config/config.php');
     <title>Webuild - Free Bootstrap coming soon template with countdown</title>
 
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-  	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
-  	<link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.css" rel="stylesheet">
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- siimple style -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -42,7 +42,7 @@ $config->load('./ContactForm/config/config.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>We Build <span class="small">(<?php echo $_SERVER['SERVER_NAME'] ?>)</span></h1>
+					<h1>We Build <span class="small">(transtube)</span></h1>
 					<h2 class="subtitle">We're working hard to improve our website and we'll ready to launch after</h2>
 					<div id="countdown"></div>
           
@@ -115,8 +115,8 @@ $config->load('./ContactForm/config/config.php');
 		</div>
 	</div>
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
 	<script type="text/javascript">
     $('#countdown').countdown('2018/6/15', function(event) {
       $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
